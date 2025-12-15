@@ -3,33 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Speech to Text</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
 
     <h1>Speech to Text Converter</h1>
-    <label>Select Language:</label>
+
+    <label>Select Language</label>
     <select id="language">
         <option value="en-US">English (US)</option>
         <option value="en-IN">English (India)</option>
-        <option value="hi-IN">Hindi</option>
-        <option value="te-IN">Telugu</option>
-        <option value="ta-IN">Tamil</option>
     </select>
 
     <button onclick="startListening()">Start Listening</button>
     <button onclick="stopListening()">Stop Listening</button>
+
     <p id="status">Status: Idle</p>
 
-    <br><br>
-
-    <textarea id="output" rows="6" placeholder="Your speech will appear here..."></textarea>
+    <textarea id="output" placeholder="Your speech will appear here..."></textarea>
 
     <script src="script.js"></script>
-
 </body>
 </html>
-
