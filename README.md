@@ -168,8 +168,9 @@ All logic and implementation were written manually for learning purposes.
 ## 📁 Project Structure
 
 Speech-to-Text/
-│
 ├── index.html
+├── styles.css
+├── script.js
 └── README.md
 
 
@@ -191,3 +192,4 @@ Developed as a learning project to understand browser-based speech recognition a
 
 ## 📄 License
 This project is open-source and intended for educational purposes.
+
